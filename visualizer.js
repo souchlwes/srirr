@@ -40,7 +40,7 @@ function drawVisualizer() {
     const x = i * barWidth;
     const y = canvas.height - barHeight;
 
-    const glow = `rgba(255, 0, 100, ${barHeight / 300})`;
+    const glow = `rgba(0, 255, 200, ${barHeight / 300})`;
     ctx.fillStyle = glow;
     ctx.shadowBlur = 20;
     ctx.shadowColor = glow;
